@@ -21,6 +21,7 @@ and italics), 64*64 is the number of pixels for each image and 1 is the number o
 channels (grey scale).
 
 DATA AUGMENTATION
+
 Now we want to create our X train. After loading the file that we created before
 (clean_data.npy), we decided to augment each image 18+6*1*18 times. Beyond the
 augmented images, we also putted in the training set the one clean image per
