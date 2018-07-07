@@ -109,7 +109,6 @@ Char: 0.672518
 Font: 0.340021
 Bold: 0.763137
 Italics: 0.757438
-Partial Accuracy: 0.6078764390744329
 
 COMPARISON
 
