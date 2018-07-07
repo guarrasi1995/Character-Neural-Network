@@ -1,6 +1,7 @@
 # Character-Neural-Network
 
 DATA GENERATOR
+
 For each character in string.printable[:-6] we decided to create a clean image for
 each font type taken from the font file, without bothering if it was bold or
 italics. Since in the font folder there was a weird Desktop file, we put a try and
@@ -57,6 +58,7 @@ italics) and repeated each element by 18+6*1*18. Then we pickled these new 4 lis
 ( fonts_train, char_train, bold_train, italics_train).
 
 MODEL
+
 Loading all of the Y training sets, with OneHotEconder, we transformed all of the
 Y training lists of strings to a matrices of zeros and ones. The keras library
 changes the order to alphabetical. Then we also loaded our X training set created
@@ -95,6 +97,7 @@ https://medium.com/octavian-ai/which-optimizer-and-learning-rate-should-i-use-fo
 learning-5acb418f9b2.
 
 PERFORMANCE
+
 The performances in our validation set are:
 Char: 0.5989
 Font: 0.4440
@@ -108,6 +111,7 @@ Italics: 0.757438
 Partial Accuracy: 0.6078764390744329
 
 COMPARISON
+
 Here we show our progress. We noticed that by changing the model not a lot of
 improvements were given, so we concentrated more on the data and its augmentation.
 Here we can see that the changes on the data gave a lot more accuracy:
@@ -123,6 +127,7 @@ nodes each instead of 32
 8. more translation
 
 EXTRA 1
+
 In convolutional (filtering and encoding by transformation) neural networks (CNN)
 every network layer acts as a detection filter for the presence of specific
 features or patterns present in the original data. The first layers in a CNN
